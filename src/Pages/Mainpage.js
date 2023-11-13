@@ -1,11 +1,13 @@
-
+import "../App.css";
+import Portfolio from "../Components/Portfolio";
+import SelfDescription from "../Components/SelfDescription";
 
 
 export default function Mainpage() {
     return (
-        <>
-        <h1>Test</h1>
-        <hr/>
-        </>
+        <div className="main-container">
+            <SelfDescription/>
+            <Portfolio/>
+        </div>
     )
 }
