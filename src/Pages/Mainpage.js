@@ -11,7 +11,7 @@ export default function Mainpage() {
     return (
         <div className="outer-container">
             <Sidebar/>
-            <Sidebar/>
+            <Sidebar id="sidebar-container-right"/>
             <div className="main-container">
                 
                 <SelfDescription/>
