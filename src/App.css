@@ -70,8 +70,9 @@
   width: 10%;
   height: 100%;
   background-color: blue;
+  box-shadow: 1px 0px 10px 1px;
 }
 
 #sidebar-container-right {
-  margin-left: 50%;
+  margin-left: 90%;
 }
