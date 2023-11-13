@@ -43,9 +43,12 @@
 }
 
 .main-container {
-  display: flex;
   margin-left: var(--mainpage-margin);
   margin-right: var(--mainpage-margin);
+}
+
+.outer-container {
+  display: flex;
 }
 
 .inner-container {
@@ -64,10 +67,11 @@
 
 .sidebar-container {
   position: fixed;
-  width: 20%;
-  color: blue;
+  width: 10%;
+  height: 100%;
+  background-color: blue;
 }
 
 #sidebar-container-right {
-  margin-left: 80%;
+  margin-left: 50%;
 }
