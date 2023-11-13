@@ -1,3 +1,8 @@
+:root {
+  --mainpage-margin: 15%;
+  --inner-container-margin: 5%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-container {
+  display: flex;
+  margin-left: var(--mainpage-margin);
+  margin-right: var(--mainpage-margin);
+}
+
+.inner-container {
+  width: 50%;
+}
+
+#portfolio-container {
+  margin-left: 50%;
+}
+
+#self-description {
+  position: fixed;
 }
