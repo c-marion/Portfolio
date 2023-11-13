@@ -1,6 +1,7 @@
 import "../App.css";
 import Portfolio from "../Components/Portfolio";
 import SelfDescription from "../Components/SelfDescription";
+import Sidebar from "../Components/Sidebar";
 
 
 /**
@@ -8,9 +9,14 @@ import SelfDescription from "../Components/SelfDescription";
  */
 export default function Mainpage() {
     return (
-        <div className="main-container">
-            <SelfDescription/>
-            <Portfolio/>
+        <div className="outer-container">
+            <Sidebar/>
+            <Sidebar/>
+            <div className="main-container">
+                
+                <SelfDescription/>
+                <Portfolio/>
+            </div>
         </div>
     )
 }
