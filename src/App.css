@@ -45,6 +45,7 @@
 .main-container {
   margin-left: var(--mainpage-margin);
   margin-right: var(--mainpage-margin);
+  margin-top: 2rem;
 }
 
 .outer-container {
@@ -69,7 +70,7 @@
   position: fixed;
   width: 10%;
   height: 100%;
-  background-color: blue;
+  background-color: #009400;
   box-shadow: 1px 0px 10px 1px;
 }
 
