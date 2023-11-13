@@ -1,3 +1,6 @@
+/**
+ * A VERY large paragraph of latin text, strictly for testing containers and stuff.
+ */
 export default function LoremIpsum() {
     return (
         <p>

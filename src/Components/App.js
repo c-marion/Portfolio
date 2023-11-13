@@ -2,6 +2,9 @@ import logo from '../logo.svg';
 import '../App.css';
 import Mainpage from '../Pages/Mainpage';
 
+/**
+ * The main App component.
+ */
 function App() {
   return (
     <div className="App">
