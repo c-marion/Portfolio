@@ -57,5 +57,17 @@
 }
 
 #self-description {
+  width: 34%;
   position: fixed;
+}
+
+
+.sidebar-container {
+  position: fixed;
+  width: 20%;
+  color: blue;
+}
+
+#sidebar-container-right {
+  margin-left: 80%;
 }
