@@ -66,6 +66,11 @@
   position: fixed;
 }
 
+.self-description-inner-container {
+  margin-left: 10%;
+  width: 60%;
+}
+
 
 .sidebar-container {
   position: fixed;
