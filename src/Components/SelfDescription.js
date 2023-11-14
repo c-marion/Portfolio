@@ -7,8 +7,12 @@ import LoremIpsum from "./LoremIpsum";
 export default function SelfDescription() {
     return (
         <div className="inner-container" id="self-description">
-            <h2 className="portfolio-header">Self</h2>
-            <LoremIpsum/>
+            <h1 className="portfolio-header">Caden Marion</h1>
+
+            <div className="self-description-inner-container">
+                <h3>About Me</h3>
+                <LoremIpsum/>
+            </div>
         </div>
     )
 }
