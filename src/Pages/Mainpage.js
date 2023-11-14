@@ -13,7 +13,6 @@ export default function Mainpage() {
             <Sidebar/>
             <Sidebar id="sidebar-container-right"/>
             <div className="main-container">
-                
                 <SelfDescription/>
                 <Portfolio/>
             </div>
