@@ -46,6 +46,7 @@
   margin-left: var(--mainpage-margin);
   margin-right: var(--mainpage-margin);
   margin-top: 2rem;
+  text-align: left;
 }
 
 .outer-container {
