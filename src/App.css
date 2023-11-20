@@ -5,6 +5,9 @@
   --primary-colour: #282c34;
   --primary-colour-inverse: #ffffff;
   --primary-colour-hover: #0b0c0e;
+
+  --primary-font: Verdana, Geneva, Tahoma, sans-serif;
+  --secondary-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .App {
@@ -101,6 +104,7 @@
   width: 8rem;
   height: 4rem;
   font-size: large;
+  font-family: var(--primary-font);
   background-color: var(--primary-colour);
   color: var(--primary-colour-inverse);
   border: none;
