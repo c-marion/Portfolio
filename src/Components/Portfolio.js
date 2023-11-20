@@ -7,7 +7,7 @@ import LoremIpsum from "./LoremIpsum";
 export default function Portfolio() {
     return (
         <div className="inner-container" id="portfolio-container">
-            <h2 className="portfolio-header">Test</h2>
+            <h2 className="portfolio-header">Portfolio</h2>
             <hr/>
             <LoremIpsum/>
         </div>
