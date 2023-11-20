@@ -1,6 +1,10 @@
 :root {
   --mainpage-margin: 15%;
   --inner-container-margin: 5%;
+
+  --primary-colour: #282c34;
+  --primary-colour-inverse: #ffffff;
+  --primary-colour-hover: #0b0c0e;
 }
 
 .App {
@@ -86,15 +90,53 @@
 
 .navbar {
   display: flex;
-  background-color: #282c34;
+  background-color: var(--primary-colour);
   padding-left: 1.5rem;
   width: 100%;
 }
 
+@keyframes navbar-btn-not-hover {
+  from {
+    background-color: var(--primary-colour-hover);
+    font-size: larger;
+  }
+  to {
+    background-color: var(--primary-colour);
+    font-size: large;
+  }
+}
+
+@keyframes navbar-btn-hover {
+  from {
+    background-color: var(--primary-colour);
+    font-size: large;
+  }
+  to {
+    background-color: var(--primary-colour-hover);
+    font-size: larger;
+  }
+}
+
 .navbar-btn {
-  margin-right: 1.5rem;
   padding: 0.5rem;
   width: 8rem;
   height: 4rem;
+  font-size: large;
+  background-color: var(--primary-colour);
+  color: var(--primary-colour-inverse);
+  border: none;
+}
+
+.navbar-btn:hover {
+  animation-name: navbar-btn-hover;
+  animation-duration: 0.5s;
+
+  background-color: var(--primary-colour-hover);
+  font-size: larger;
+}
+
+.navbar-btn:not(:hover) {
+  animation-name: navbar-btn-not-hover;
+  animation-duration: 0.5;
   font-size: large;
 }
