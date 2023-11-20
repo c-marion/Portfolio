@@ -10,12 +10,17 @@ import Navbar from "../Components/Navbar";
  */
 export default function Mainpage() {
     return (
-        <div className="outer-container">
-            <div className="main-container">
-                <Navbar links={[
-                    { name: "Skills", addressId: "skills" }
+        <>
+            <Navbar links={[
+                    { name: "Skills", addressId: "skills" },
+                    { name: "About", addressId: "about" },
+                    { name: "Projects", addressId: "projects" }
                 ]}/>
+            <div className="outer-container">
+            <div className="main-container">
+
             </div>
         </div>
+        </>
     )
 }
