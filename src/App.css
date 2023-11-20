@@ -83,3 +83,18 @@
 #sidebar-container-right {
   margin-left: 90%;
 }
+
+.navbar {
+  display: flex;
+  background-color: #282c34;
+  padding-left: 1.5rem;
+  width: 100%;
+}
+
+.navbar-btn {
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  width: 8rem;
+  height: 4rem;
+  font-size: large;
+}
