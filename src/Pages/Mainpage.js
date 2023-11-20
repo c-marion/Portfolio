@@ -10,8 +10,6 @@ import Sidebar from "../Components/Sidebar";
 export default function Mainpage() {
     return (
         <div className="outer-container">
-            <Sidebar/>
-            <Sidebar id="sidebar-container-right"/>
             <div className="main-container">
                 <SelfDescription/>
                 <Portfolio/>
