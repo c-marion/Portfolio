@@ -5,7 +5,7 @@ export default function Navbar(params) {
         <div className="navbar">
             {
                 params && params.links && params.links.map((link, index) => {
-                    return <a href={`#${link.addressId}`}>{link.name}</a>
+                    return <button className="navbar-btn" href={`#${link.addressId}`}>{link.name}</button>
                 })
             }
         </div>
