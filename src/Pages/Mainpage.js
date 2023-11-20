@@ -11,8 +11,7 @@ export default function Mainpage() {
     return (
         <div className="outer-container">
             <div className="main-container">
-                <SelfDescription/>
-                <Portfolio/>
+                
             </div>
         </div>
     )
