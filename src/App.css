@@ -6,6 +6,9 @@
   --primary-colour-inverse: #ffffff;
   --primary-colour-hover: #0b0c0e;
 
+  --secondary-colour: #525d80;
+  --secondary-colour-inverse: #ffffff;
+
   --primary-font: Verdana, Geneva, Tahoma, sans-serif;
   --secondary-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -166,4 +169,26 @@
   width: 35rem;
   margin-left: 40rem;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+
+.aboutme-container {
+  display: block;
+  background-color: var(--secondary-colour);
+  color: var(--secondary-colour-inverse);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.aboutme-heading {
+  font-size: 2.5rem;
+}
+
+.aboutme-paragraph {
+  font-size: 1.5rem;
+  font-family: var(--primary-font);
 }
