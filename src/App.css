@@ -91,6 +91,7 @@
   width: 100% - 1.5rem;
   position: relative;
   box-shadow: -5px 2px 15px black;
+  z-index: 10000;
 }
 
 .navbar-btn {
@@ -143,9 +144,12 @@
 
 #title-circle2 {
   background-color: rgb(55, 125, 255);
+  height: 100%;
+  z-index: -105;
 
-  animation: title-circle2;
+  animation: title-circle;
   animation-duration: 10s;
+  animation-delay: 5s;
   animation-iteration-count: infinite;
 }
 
