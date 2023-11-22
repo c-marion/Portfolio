@@ -188,7 +188,7 @@ h4 {
 
 
 .aboutme-container {
-  display: inline;
+  display:flex;
   background-color: var(--secondary-colour);
   color: var(--secondary-colour-inverse);
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
@@ -200,7 +200,9 @@ h4 {
 }
 
 .aboutme-paragraph-container {
-
+  display: block;
+  margin-left: 10rem;
+  width: 40rem;
 }
 
 .aboutme-heading {
@@ -214,8 +216,9 @@ h4 {
 }
 
 .aboutme-portrait {
-  width: 27rem;
-  height: 27rem;
+  width: 28rem;
+  height: 28rem;
   border-radius: 50%;
   object-fit: scale-down;
+  margin-left: 12rem;
 }
