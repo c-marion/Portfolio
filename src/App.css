@@ -120,6 +120,8 @@
 .title-heading {
   margin-top: 18rem;
   font-size: 4.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 .title-subheading {
