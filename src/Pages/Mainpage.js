@@ -1,5 +1,6 @@
 import "../App.css";
 import Navbar from "../Components/Navbar";
+import Title from "../Components/Title";
 
 
 /**
@@ -15,7 +16,7 @@ export default function Mainpage() {
                 ]}/>
             <div className="outer-container">
                 <div className="main-container">
-
+                    <Title/>
                 </div>
             </div>
         </>
