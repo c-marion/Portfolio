@@ -50,13 +50,6 @@
 }
 
 .main-container {
-  margin-left: var(--mainpage-margin);
-  margin-right: var(--mainpage-margin);
-  margin-top: 2rem;
-  text-align: left;
-}
-
-.outer-container {
   display: flex;
 }
 
@@ -119,6 +112,6 @@
 
 .title-container {
   display: flex;
-  height: 100%;
+  padding: 5rem;
   background-color: #61dafb;
 }
