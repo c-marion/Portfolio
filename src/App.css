@@ -88,7 +88,7 @@
   display: flex;
   background-color: var(--primary-colour);
   padding-left: 1.5rem;
-  width: 100%;
+  width: 100% - 1.5rem;
   position: relative;
   box-shadow: -5px 2px 15px black;
 }
@@ -115,4 +115,15 @@
   width: 100%;
   color: black;
   background-color: #61dafb;
+}
+
+.title-heading {
+  margin-top: 18rem;
+  font-size: 4.5rem;
+}
+
+.title-subheading {
+  font-size: 1.5rem;
+  width: 35rem;
+  margin-left: 40rem;
 }
