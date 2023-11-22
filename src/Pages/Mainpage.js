@@ -9,12 +9,12 @@ import Title from "../Components/Title";
 export default function Mainpage() {
     return (
         <>
-            <Navbar links={[
-                    { name: "Skills", addressId: "skills" },
-                    { name: "About", addressId: "about" },
-                    { name: "Projects", addressId: "projects" }
-                ]}/>
             <div className="main-container">
+                <Navbar links={[
+                        { name: "Skills", addressId: "skills" },
+                        { name: "About", addressId: "about" },
+                        { name: "Projects", addressId: "projects" }
+                    ]}/>
                 <Title/>
             </div>
         </>
