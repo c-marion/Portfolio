@@ -1,4 +1,5 @@
 import "../App.css";
+import Aboutme from "../Components/Aboutme";
 import Navbar from "../Components/Navbar";
 import Title from "../Components/Title";
 
@@ -16,6 +17,7 @@ export default function Mainpage() {
                         { name: "Projects", addressId: "projects" }
                     ]}/>
                 <Title/>
+                <Aboutme/>
             </div>
         </>
     )
