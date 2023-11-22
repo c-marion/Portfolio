@@ -116,3 +116,9 @@
   background-color: var(--primary-colour-hover);
   font-size: larger;
 }
+
+.title-container {
+  display: flex;
+  height: 100%;
+  background-color: #61dafb;
+}
