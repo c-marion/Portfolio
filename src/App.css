@@ -1,6 +1,7 @@
 :root {
   --mainpage-margin: 15%;
   --inner-container-margin: 5%;
+  --appear-transition: 0.5s;
 
   --primary-colour: #282c34;
   --primary-colour-inverse: #ffffff;
@@ -50,7 +51,8 @@
 }
 
 .main-container {
-  display: flex;
+  display: grid;
+  color: transparent;
 }
 
 .inner-container {
@@ -89,8 +91,8 @@
   background-color: var(--primary-colour);
   padding-left: 1.5rem;
   width: 100%;
-  position: fixed;
-  box-shadow: 1px 0px 20px 0px;
+  position: relative;
+  box-shadow: -5px 2px 15px;
 }
 
 .navbar-btn {
@@ -111,7 +113,9 @@
 }
 
 .title-container {
-  display: flex;
-  padding: 5rem;
+  height: 100vh;
+  width: 100%;
+  color: black;
   background-color: #61dafb;
+  transition: var(--appear-transition);
 }
