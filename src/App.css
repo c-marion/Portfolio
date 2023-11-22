@@ -1,7 +1,6 @@
 :root {
   --mainpage-margin: 15%;
   --inner-container-margin: 5%;
-  --appear-transition: 0.5s;
 
   --primary-colour: #282c34;
   --primary-colour-inverse: #ffffff;
@@ -52,7 +51,6 @@
 
 .main-container {
   display: grid;
-  color: transparent;
 }
 
 .inner-container {
@@ -92,7 +90,7 @@
   padding-left: 1.5rem;
   width: 100%;
   position: relative;
-  box-shadow: -5px 2px 15px;
+  box-shadow: -5px 2px 15px black;
 }
 
 .navbar-btn {
@@ -117,5 +115,4 @@
   width: 100%;
   color: black;
   background-color: #61dafb;
-  transition: var(--appear-transition);
 }
