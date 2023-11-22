@@ -97,6 +97,7 @@
   padding-left: 1.5rem;
   width: 100%;
   position: fixed;
+  box-shadow: 1px 0px 20px 0px;
 }
 
 .navbar-btn {
