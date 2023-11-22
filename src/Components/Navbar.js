@@ -1,4 +1,9 @@
 
+function scrollToElement(event) {
+    const addressElement = document.getElementById(event.target.name);
+    addressElement.scrollIntoView({ behavior: 'smooth',  });
+}
+
 
 /**
  * A navigation bar that sends the user to different parts of the page.
@@ -9,7 +14,7 @@ export default function Navbar(params) {
         <div className="navbar">
             {
                 params && params.links && params.links.map((link, index) => {
-                    return <button className="navbar-btn" href={`#${link.addressId}`}>{link.name}</button>
+                    return <button className="navbar-btn" name={link.addressId} onClick={scrollToElement}>{link.name}</button>
                 })
             }
         </div>
