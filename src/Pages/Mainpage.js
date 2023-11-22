@@ -14,10 +14,8 @@ export default function Mainpage() {
                     { name: "About", addressId: "about" },
                     { name: "Projects", addressId: "projects" }
                 ]}/>
-            <div className="outer-container">
-                <div className="main-container">
-                    <Title/>
-                </div>
+            <div className="main-container">
+                <Title/>
             </div>
         </>
     )
