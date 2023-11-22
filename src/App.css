@@ -110,11 +110,43 @@
   font-size: larger;
 }
 
+
 .title-container {
   height: 100vh;
   width: 100%;
   color: black;
-  background-color: #61dafb;
+  background: transparent;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+@keyframes title-circle {
+  0% { width: 0%; height: 0%; margin-left: 50%; margin-top: 25%; z-index: -100; }
+  50% { width: 200%; height: 200%; margin-left: 0%; margin-top: 0%; z-index: -101; }
+  100% { width: 200%; height: 200%; margin-left: 0%; margin-top: 0%; z-index: -102; }
+}
+
+.title-circle {
+  position: absolute;
+  z-index: -100;
+  border-radius: 50%;
+}
+
+#title-circle1 {
+  background-color: rgb(138, 255, 144);
+
+  animation: title-circle;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#title-circle2 {
+  background-color: rgb(55, 125, 255);
+
+  animation: title-circle;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
 }
 
 .title-heading {
