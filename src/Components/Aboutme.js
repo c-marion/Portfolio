@@ -8,7 +8,8 @@ export default function Aboutme() {
             <div className="aboutme-paragraph-container">
                 <h2 className="aboutme-heading">About Me</h2>
                 <p className="aboutme-paragraph">
-                    My name is Caden Marion. I'm a computer science student at John Abbott College
+                    My name is Caden Marion. I've been a computer science student at John Abbott College since late 2021. In my free time, I enjoy playing video games, making
+                    nonsensical 3D animations, gardening, and going to places with my friends. I have a great interest in MVC and databases, and enjoy working with them.
                 </p>
             </div>
             
