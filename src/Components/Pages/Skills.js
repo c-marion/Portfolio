@@ -26,6 +26,12 @@ export default function Skills(params) {
                 classes, interfaces, and objects, as well as implementing them. I prefer to work in the back-end of an app or program, as I both enjoy working in back-ends and
                 am a little less skilled in the front-end.
             </p>
+
+            <p className="skills-paragraph">
+                As for my soft skills, I rarely give up when trying to solve a problem, and I'll often ask those around me about it. I try to keep
+                my files and code organized to the best of my ability, and I can adapt fairly well to new environments. My ability to set and focus on goals
+                could use some work, but I can become very focused on a task that I'm currently working on.
+            </p>
         </div>
     )
 }
