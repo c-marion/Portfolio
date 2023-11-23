@@ -1,6 +1,7 @@
 import Aboutme from "./Aboutme";
 import Navbar from "../Navbar";
 import Title from "../Title";
+import Skills from "./Skills";
 
 
 /**
@@ -17,6 +18,7 @@ export default function Mainpage() {
                     ]}/>
                 <Title/>
                 <Aboutme/>
+                <Skills/>
             </div>
         </>
     )
