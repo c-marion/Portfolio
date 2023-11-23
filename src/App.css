@@ -261,6 +261,7 @@ h4 {
 .skills-container {
   background-color: var(--primary-colour);
   color: var(--primary-colour-inverse);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 
   padding-top: 3rem;
   padding-bottom: 3rem;
