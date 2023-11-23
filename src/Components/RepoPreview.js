@@ -5,6 +5,15 @@ export default function RepoPreview(params) {
     const [languages, setLanguages] = useState([]);
     const [languageTotal, setLanguageTotal] = useState(0);
 
+    function getLanguageNameList() {
+        return Object.keys(languages);
+    }
+
+    function getLanguageAmountList() {
+        return Object.values(languages);
+    }
+
+
     useEffect(function () {
         fetch("https://api.github.com/repos/c-marion/Portfolio/languages")
         .then(function (response) {
@@ -24,11 +33,22 @@ export default function RepoPreview(params) {
         })
     }, []);
 
+    
+
     return (
         <div className="repo-container">
             <h4 className="repo-header">{params.repo && params.repo.name}</h4>
             <hr/>
-            <p>{languageTotal && languageTotal}</p>
+            
+            <div className="language-container">
+            {
+                languages && getLanguageAmountList().map((langAmount) => {
+                    console.log(langAmount);
+                    return <p className="repo-language">{languageTotal && Math.floor((langAmount / languageTotal) * 100) + "%"}</p>
+                })
+            }
+            </div>
+            
         </div>
     );
 }
