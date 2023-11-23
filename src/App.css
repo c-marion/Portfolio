@@ -7,6 +7,7 @@
   --primary-colour-hover: #0b0c0e;
 
   --secondary-colour: #525d80;
+  --secondary-colour-hover: #373f58;
   --secondary-colour-inverse: #ffffff;
 
   --primary-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -188,30 +189,38 @@ h4 {
 
 .title-link {
   font-size: 1.5rem;
-  color: var(--primary-colour-inverse);
+  color: var(--secondary-colour-inverse);
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+.title-btns {
+  margin-top: 3rem;
+  margin-left: 43.75rem;
+  display: flex;
 }
 
 .title-btn {
-  margin-top: 6rem;
   width: 12rem;
   height: 4rem;
   transition: 0.5s;
+  margin-left: 1rem;
   
-  background-color: var(--primary-colour);
+  background-color: var(--secondary-colour);
   border-radius: 2rem;
   border: none;
+  box-shadow: 0px 2px 15px black;
 }
 
 .title-btn:hover {
-  background-color: var(--primary-colour-hover);
+  background-color: var(--secondary-colour-hover);
   transition: 0.5s;
 }
-
 
 .aboutme-container {
   display:flex;
