@@ -2,8 +2,8 @@
 
 export default function Projects() {
     return (
-        <div>
-            
+        <div className="projects-container" id="projects">
+            <h1>Projects</h1>
         </div>
     );
 }
