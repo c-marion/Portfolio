@@ -201,7 +201,7 @@ h4 {
 
 .title-btns {
   margin-top: 3rem;
-  margin-left: 43.75rem;
+  margin-left: 42.5rem;
   display: flex;
 }
 
@@ -209,7 +209,7 @@ h4 {
   width: 12rem;
   height: 4rem;
   transition: 0.5s;
-  margin-left: 1rem;
+  margin-left: 2rem;
   
   background-color: var(--secondary-colour);
   border-radius: 2rem;
