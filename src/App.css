@@ -378,6 +378,7 @@ hr {
 
 .repo-language {
   font-size: 1rem;
+  margin-left: 1rem;
 }
 
 .repo-container {
@@ -394,8 +395,8 @@ hr {
 }
 
 .language-container {
+  margin: 0.5rem;
   align-items: center;
   display: flex;
-  flex-flow: column;
 }
 
