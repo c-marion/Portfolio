@@ -309,8 +309,8 @@ h4 {
 }
 
 .skills-list-item:hover{
-  text-shadow: 0px 0px 10px rgb(255, 255, 255);
-  color: var(--primary-colour);
+  color: rgb(0, 255, 0);
+  margin-bottom: 0.5rem;
   transition: 0.2s;
 }
 
@@ -324,7 +324,7 @@ h4 {
 
 .skills-icon-text {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 100%;
   margin-top: 8rem;
   position: absolute;
 }
