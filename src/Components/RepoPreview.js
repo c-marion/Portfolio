@@ -42,9 +42,8 @@ export default function RepoPreview(params) {
             
             <div className="language-container">
             {
-                languages && getLanguageAmountList().map((langAmount) => {
-                    console.log(langAmount);
-                    return <p className="repo-language">{languageTotal && Math.floor((langAmount / languageTotal) * 100) + "%"}</p>
+                languages && getLanguageAmountList().map((langAmount, index) => {
+                    return <p className="repo-language">{getLanguageNameList()[index]}: {languageTotal && Math.floor((langAmount / languageTotal) * 100) + "%"}</p>
                 })
             }
             </div>
