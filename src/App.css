@@ -35,6 +35,10 @@ p {
   font-family: var(--primary-font);
 }
 
+hr {
+  margin: 1rem;
+}
+
 .App {
   text-align: center;
 }
