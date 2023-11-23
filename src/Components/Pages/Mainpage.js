@@ -2,6 +2,7 @@ import Aboutme from "./Aboutme";
 import Navbar from "../Navbar";
 import Title from "../Title";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 
 /**
@@ -31,6 +32,7 @@ export default function Mainpage() {
                     { language: "html5", languageName: "HTML" },
                     { language: "css3", languageName: "CSS" }
                 ]}/>
+                <Projects/>
             </div>
         </>
     )
