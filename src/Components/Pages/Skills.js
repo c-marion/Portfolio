@@ -21,7 +21,11 @@ export default function Skills(params) {
                 }
             </ul>
             
-            
+            <p className="skills-paragraph">
+                For my technical skills, I exceed at MVC and databases, but I also do well with tasks relating to Object Oriented Programming (OOP) such as creating
+                classes, interfaces, and objects, as well as implementing them. I prefer to work in the back-end of an app or program, as I both enjoy working in back-ends and
+                am a little less skilled in the front-end.
+            </p>
         </div>
     )
 }
