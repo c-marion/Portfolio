@@ -328,3 +328,8 @@ p {
   margin-top: 8rem;
   position: absolute;
 }
+
+.skills-paragraph {
+  margin-top: 5rem;
+  width: 60rem;
+}
