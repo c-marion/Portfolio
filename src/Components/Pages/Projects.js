@@ -4,14 +4,23 @@ import RepoPreview from "../RepoPreview";
 
 export default function Projects() {
     const [repos, setRepos] = useState([]);
-    const user = useEffect(function() {
-        const response = fetch("https://api.github.com/users/c-marion/repos")
+    
+    useEffect(function() {
+        fetch("https://api.github.com/users/c-marion/repos")
         .then(function(response) {
             response.json()
             .then(function(repos) {
                 setRepos(repos);
             });
         });
+
+        // fetch("https://api.github.com/users/Ryanmeziane/repos")
+        // .then(function(response) {
+        //     response.json()
+        //     .then(function(repos) {
+        //         setRepos(repos);
+        //     });
+        // });
     }, []);
 
     return (
@@ -19,12 +28,13 @@ export default function Projects() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <h1>Projects</h1>
 
-            <ul>
-                <li className="projects-li">
-                    <RepoPreview repo={repos[0]}/>
-                </li>
-            </ul>
-            
+            <div className="projects-list">
+                    {
+                        repos && repos.map((repo, index) => {
+                            return <RepoPreview repo={repo}/>
+                        })
+                    }
+            </div>
         </div>
     );
 }
