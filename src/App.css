@@ -349,3 +349,23 @@ p {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+.projects-li {
+  list-style: none;
+}
+
+.repo-container {
+  background-color: var(--primary-colour);
+  color: var(--primary-colour-inverse);
+  width: 35rem;
+  height: 20rem;
+  border-radius: 1rem;
+  border: 2px solid white;
+  box-shadow: 0px 0px 20px 1px black;
+  transition: 0.5s;
+}
+
+.repo-container:hover {
+  margin-bottom: 1rem;
+  box-shadow: 0px 10px 20px 1px black;
+}
