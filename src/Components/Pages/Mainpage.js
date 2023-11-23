@@ -19,7 +19,10 @@ export default function Mainpage() {
                     ]}/>
                 <Title/>
                 <Aboutme/>
-                <Skills/>
+                <Skills languages={[
+                    { language: "csharp", languageName: "C#" },
+                    { language: "javascript", languageName: "JavaScript" },
+                ]}/>
             </div>
         </>
     )
