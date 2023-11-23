@@ -399,3 +399,19 @@ hr {
   display: flex;
 }
 
+.repo-link {
+  color: var(--primary-colour-inverse);
+  text-decoration: none;
+}
+
+.repo-btn {
+  padding: 0.8rem;
+  background-color: var(--secondary-colour);
+  border-radius: 0.4rem;
+  border: 0px;
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+.repo-desc {
+  font-size: 1rem;
+}
