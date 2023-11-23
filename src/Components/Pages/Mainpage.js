@@ -1,7 +1,6 @@
-import "../App.css";
-import Aboutme from "../Components/Aboutme";
-import Navbar from "../Components/Navbar";
-import Title from "../Components/Title";
+import Aboutme from "./Aboutme";
+import Navbar from "../Navbar";
+import Title from "../Title";
 
 
 /**
