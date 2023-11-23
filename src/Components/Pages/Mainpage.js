@@ -21,7 +21,15 @@ export default function Mainpage() {
                 <Aboutme/>
                 <Skills languages={[
                     { language: "csharp", languageName: "C#" },
+                    { language: "java", languageName: "Java" },
+                    { language: "kotlin", languageName: "Kotlin" },
                     { language: "javascript", languageName: "JavaScript" },
+                    { language: "nodejs", languageName: "Node JS" },
+                    { language: "react", languageName: "React" },
+                    { language: "bash", languageName: "Bash" },
+                    { language: "microsoftsqlserver", languageName: "SQL Server" },
+                    { language: "html5", languageName: "HTML" },
+                    { language: "css3", languageName: "CSS" }
                 ]}/>
             </div>
         </>
