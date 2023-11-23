@@ -376,6 +376,10 @@ hr {
   font-size: 2rem;
 }
 
+.repo-language {
+  font-size: 1rem;
+}
+
 .repo-container {
   background-color: var(--primary-colour);
   color: var(--primary-colour-inverse);
@@ -387,5 +391,11 @@ hr {
   transition: 0.5s;
   margin: 3rem;
   margin-top: 0;
+}
+
+.language-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }
 
