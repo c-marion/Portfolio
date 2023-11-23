@@ -6,7 +6,7 @@
 export default function Title() {
     return (
         <>
-        <div className="title-container">
+        <div className="title-container" id="title">
             <div className="title-circle" id="title-circle1"/>
             <div className="title-circle" id="title-circle2"/>
 
