@@ -15,7 +15,7 @@ export default function RepoPreview(params) {
 
 
     useEffect(function () {
-        fetch("https://api.github.com/repos/c-marion/Portfolio/languages")
+        fetch(params.repo.url + "/languages")
         .then(function (response) {
             response.json()
             .then(function (languages) {
