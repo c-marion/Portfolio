@@ -43,7 +43,7 @@ export default function RepoPreview(params) {
                 <p className="repo-desc">{params.repo && params.repo.description}</p>
 
                 <button className="repo-btn">
-                    <a className="repo-link" href={params.repo && params.repo.clone_url}><i className="fa fa-github"></i> Repository</a>
+                    <a target="_target" className="repo-link" href={params.repo && params.repo.clone_url}><i className="fa fa-github"></i> Repository</a>
                 </button>
             </div>
             
